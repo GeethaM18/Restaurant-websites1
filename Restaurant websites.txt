@@ -1,0 +1,91 @@
+<html>
+    <body>
+        <center><h1 style="color: blueviolet;">NEW STAR HOTEL</h1></center>
+        <center><img src="https://img.freepik.com/premium-photo/3d-rendering-loft-luxury-hotel-reception-vintage-cafe-lounge-restaurant_105762-1102.jpg" 
+        width="1200" height="500"></center>
+        <h2 style="color:blueviolet;">Welcome to New Star Hotel Your Gateway to Luxury and
+             Comfort in Anna Nagar, Chennai : </h2>
+             <div class="one">Nestled in the vibrant neighborhood of Anna Nagar, Chennai,
+                 the New Star Hotel offers a perfect blend of modern elegance and timeless charm.
+                  Located just minutes away from popular attractions and business hubs, our hotel
+                   provides a convenient and luxurious stay for both leisure and business travelers in 
+                   one of Chennai’s most sought-after areas.
+                   <h2 style="color: blueviolet;">Luxurious Accommodations</h2>
+                   <div class="two">New Star Hotel boasts a selection of well-appointed rooms and suites
+                     designed with your comfort in mind. Choose from our Deluxe Rooms, Executive Suites,
+                      or Family Rooms, each featuring plush bedding, contemporary decor, and stunning views 
+                      of Anna Nagar. Enjoy in-room amenities such as high-speed Wi-Fi, smart TVs, mini-bars, 
+                      and private balconies, ensuring a relaxing and enjoyable stay.</div>
+                      <center><img src="https://th.bing.com/th/id/R.357b97a35eea73c7fd4a3d04e21e637b?rik=2DdEZg7PHOM8lw&riu=http%3a%2f%2f3.bp.blogspot.com%2f-xbgLxWss4Xg%2fUa5d6gZ2xWI%2fAAAAAAAAVUE%2f8Ji7JpHMMEw%2fs1600%2fluxury_bedroom_design_9.jpg&ehk=xo6p%2beAcgvxopGhUF6c7%2f3xDnvt7eLG12yYbQspG5pQ%3d&risl=&pid=ImgRaw&r=0" 
+                        width="1200" height="500"></center>
+                        <h2 style="color: blueviolet;">Culinary Delights at New Star Hotel – A Gastronomic Journey
+                             Awaits</h2>
+                             <p>At New Star Hotel, we believe that dining is not just a meal but an experience. Our on-site 
+                                restaurant, Star Spice, offers a culinary journey that caters to both the local palate 
+                                and international tastes.</p>
+                                <h2 style="color: blueviolet;">Star Spice – All-Day Dining Restaurant</h2>
+                                <h2 style="color:blueviolet ;">Rooftop Dining at SkyView</h2>
+                                <h2 style="color: blueviolet;">Desserts & Beverages</h2>
+                                <h2 style="color: blueviolet;">Room Service – Gourmet at Your Doorstep</h2>
+                                <center><h1 style="color: crimson;">BOOKING FORM</h1></center>
+                                <form>
+                                <table>
+                                    <tr>
+                                        <td>Name : </td><td><input type="text" placeholder="enter your name" class="text"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Age : </td><td><input type="number" placeholder="enter you age"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            DOB : <td><input type="number" placeholder="enter you dob"></td>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td> members : </td><td><input type="number" placeholder="how many members"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>email : </td><td><input type="email" placeholder="enter your email"></td>
+                                    </tr>
+                                
+                                </table>
+                            </form>
+                           <center><h2 style="color: crimson;">FOOD MENU</h2></center> 
+                           <form>
+                                <label for="foods">INDIAN FOODS : </label>
+                                <select name="foods : " id="foods"> 
+                                <optgroup label="BIRIYANI : "></optgroup>
+                                <option value="chicken">Chicken Biriyani - 150 </option>
+                                <option value="Chicken">Mutton Biriyani - 200 </option>
+                                <option value="Chicken">Egg Biriyani - 100 </option>
+                                <option value="Chicken">Prawn Biriyani - 210 </option>
+                                <option value="Chicken">fish Biriyani - 200 </option>
+                                </select>
+                                <label for="foods">RICE : </label>
+                                <select name="foods : " id="foods">
+                                <optgroup label="RICE :"></optgroup>
+                                <option value="Chicken">chicken rice - 180 </option>
+                                <option value="Chicken">Mutton rice - 200 </option>
+                                <option value="Chicken">Ghee rice - 100 </option>
+                                <option value="Chicken">Egg rice - 120 </option>
+                                <option value="Chicken">Mushroom rice - 120 </option>
+                                </select>
+                                <label for="foods">DESSERTS : </label>
+                                <select name="foods : " id="foods">
+                                <optgroup label="DESSERTS :"></optgroup>
+                                <option value="Chicken">vennila cake - 120 </option>
+                                <option value="Chicken">strawberry cake - 120 </option>
+                                <option value="Chicken">chocolate cake - 200 </option>
+                                <option value="Chicken">black forest cake - 180 </option>
+                                <option value="Chicken">white forest cake - 180 </option>
+                                </select>
+                                </form>
+                                <form onsubmit="myfun()"><input type="submit"></form>
+                                <script>
+                                    function myfun(){
+                                        alert("your food order is successfully registered");
+                                    }
+                                    </script>
+             </div>
+    </body>
+</html>
